@@ -51,8 +51,10 @@ class GuestList extends Component {
           component="ul"
           transitionName="slide"
           transitionEnterTimeout={1000}
-          transitionLeaveTimeout={1000}>
-
+          transitionLeaveTimeout={1000}
+          transitionAppear={500}
+          transitionAppearTimeout={500}>
+          
           {guests}
 
         </ReactCSSTransitionGroup>
